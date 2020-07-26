@@ -125,7 +125,8 @@ app.post('/api/users', (req, res) => {
 // Run Web Server at Port 3000
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
-	console.log('Listening on port ${port}');
+	//console.log('Listening on port ${port}');
+    console.log(`Listening on port ${port}`);
 });
 
 // Validation Function
